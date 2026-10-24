@@ -15,7 +15,7 @@ const RESUME_FILE = path.join(BASE_DIR, "resume.pdf");
 const LOG_FILE = path.join(BASE_DIR, "sent-log.json");
 
 const DELAY_MS = 10_000;
-const MAX_DAILY_LIMIT = 150;
+const MAX_DAILY_LIMIT = 250;
 
 const configuredLimit = Number(process.env.DAILY_LIMIT || 100);
 const DAILY_LIMIT = Math.min(
