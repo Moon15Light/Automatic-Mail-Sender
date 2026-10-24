@@ -10,7 +10,7 @@ A Node.js command-line tool for preparing and sending personalized job-applicati
 4. Add your own `contacts.csv` and `resume.pdf` beside `index.js`. These files are intentionally excluded from Git.
 5. Run `node index.js`.
 
-Email sending is disabled by default. Review the preview, then set `SEND_EMAILS=true` in `.env` when you are ready to send. `DAILY_LIMIT` is capped at 150.
+Email sending is disabled by default. Review the preview, then set `SEND_EMAILS=true` in `.env` when you are ready to send. `DAILY_LIMIT` is capped at 250.
 
 The contact CSV must contain the headers `name,email,company,role`. The SMTP account and sender address should be configured with your email provider's recommended settings.
 
